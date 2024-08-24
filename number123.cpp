@@ -7,7 +7,7 @@ for (int i=1;i<=n;i++){
     x=i;
     y=n-i+1;
 for(int j=1;j<=n;j++){
-    if(j%2==0){
+    if(j%2==1){
         cout<<x<<"";
     }
     else{
