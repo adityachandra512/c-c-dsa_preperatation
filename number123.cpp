@@ -17,5 +17,6 @@ for(int j=1;j<=n;j++){
     y=y+n;
 }
 cout<<endl;
+}
 return 0;
 }
