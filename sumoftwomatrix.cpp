@@ -8,11 +8,6 @@ for(i=0;i<3;i++){
         cin>>a[i][j];
     }
 }
-for(i=0;i<3;i++){
-    for(j=0;j<3;j++){
-        c[i][j]=a[i][j];
-    }
-}
 cout<<"Enter the elements of the second matrix: ";
 for(i=0;i<3;i++){
     for(j=0;j<3;j++){
@@ -22,7 +17,7 @@ for(i=0;i<3;i++){
 cout<<"The sum of the two matrices is: "<<endl;
 for(i=0;i<3;i++){
     for(j=0;j<3;j++){
-        c[i][j]=c[i][j]+b[i][j];
+        c[i][j]=a[i][j]+b[i][j];
         cout<<c[i][j]<<" ";
     }
     cout<<endl;
